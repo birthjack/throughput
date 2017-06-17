@@ -1,0 +1,331 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\WirelessTest.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\WirelessTest.ico"
+IDI_ICON1               ICON                    "res\\Counter-Strike Source.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 214, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 无线吞吐量测试 V3.0.5"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,21,21,21
+    LTEXT           "通讯终端制造部 移动互联网产品线",IDC_MAN_INFO,39,23,161,22
+    DEFPUSHBUTTON   "确定",IDOK,157,73,50,14,WS_GROUP
+    LTEXT           "版权所有 (C) TP-LINK 2013",IDC_COPY_INFO,39,49,161,18
+END
+
+IDD_MY_DIALOG DIALOGEX 0, 0, 713, 433
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "无线吞吐量测试 V3.0.5"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "默认IP",IDC_STATIC,76,102,25,9
+    LTEXT           "对端IP",IDC_STATIC,206,100,25,10
+    LTEXT           "测试文件",IDC_STATIC,76,122,35,10
+    LTEXT           "24g吞吐量",IDC_STATIC,216,121,36,10
+    CTEXT           "",IDC_RESULT,145,283,239,52,SS_CENTERIMAGE,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_AVG,145,349,239,15,SS_CENTERIMAGE,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "开始测试",IDC_TESTTHROUGHPUT,83,282,59,30
+    PUSHBUTTON      "浏览",IDC_BROSE,171,119,39,13
+    CONTROL         "IPAddress1",IDC_DUTIP,"SysIPAddress32",WS_DISABLED | WS_TABSTOP,116,98,80,14
+    CONTROL         "IPAddress2",IDC_REMOTEIP,"SysIPAddress32",WS_TABSTOP,246,98,81,13
+    EDITTEXT        IDC_TESTFILENAME,116,118,51,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSAVG,255,117,41,15,ES_CENTER | ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "",IDC_CURSTATE,81,388,299,36
+    PUSHBUTTON      "查看记录",IDC_READRECORD,84,350,58,16
+    GROUPBOX        "吞吐量测试",IDC_STATIC,72,268,314,104
+    GROUPBOX        "当前状态",IDC_STATIC,72,377,313,53
+    GROUPBOX        "测试设置",IDC_STATIC,72,88,314,51
+    PUSHBUTTON      "PING",IDC_PING,336,98,40,14
+    LTEXT           "Mbps",IDC_STATIC,369,122,17,10
+    GROUPBOX        "基本信息",IDC_STATIC,71,6,154,79
+    LTEXT           "工号",IDC_STATIC,77,18,22,9
+    LTEXT           "请选择机型：",IDC_STATIC,77,38,50,9
+    EDITTEXT        IDC_NUMBER,99,16,47,12,ES_CENTER | ES_AUTOHSCROLL
+    COMBOBOX        IDC_XIANBIE,122,35,99,93,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "确定",IDC_CONFIRM,80,58,58,21
+    PUSHBUTTON      "修改",IDC_AMEND,153,58,57,21
+    GROUPBOX        "测试结果统计",IDC_STATIC,228,6,159,80
+    LTEXT           "测试合格次数：",IDC_STATIC,233,24,67,11
+    LTEXT           "测试不合格次数：",IDC_STATIC,233,45,67,11
+    LTEXT           "一次测试直通率：",IDC_STATIC,232,65,67,11
+    RTEXT           "",IDC_PASSTIMES,295,21,44,11,0,WS_EX_CLIENTEDGE
+    RTEXT           "",IDC_FAILTIMES,295,42,44,11,0,WS_EX_CLIENTEDGE
+    RTEXT           "",IDC_PASSPRO,295,62,44,11,0,WS_EX_CLIENTEDGE
+    LTEXT           "********",IDC_STATIC,98,342,37,8
+    LTEXT           "小心操作",IDC_STATIC,98,323,37,8
+    LTEXT           "谨防夹伤",IDC_STATIC,97,333,37,8
+    LTEXT           "********",IDC_STATIC,98,315,37,8
+    PUSHBUTTON      "清零",IDC_RESET,344,39,38,18
+    GROUPBOX        "最近测试",IDC_STATIC,393,6,317,89
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,399,18,305,67
+    GROUPBOX        "信息提交",IDC_INFO,11,291,50,95
+    PUSHBUTTON      "MAC错误",IDC_FEEDBK,16,303,40,20
+    LTEXT           "实际 MAC地址与锡标 MAC地址不一致",IDC_STATIC,19,327,35,32
+    CONTROL         138,IDC_STATIC,"Static",SS_BITMAP | SS_RIGHTJUST,0,10,67,27
+    PUSHBUTTON      "机型同步",IDC_TYPESYN,16,361,40,20
+    GROUPBOX        "设备信息",IDC_STATIC,71,145,314,121
+    LTEXT           "MAC：",IDC_MACLABEL,76,209,21,8
+    LTEXT           "IMEI：",IDC_IMEILABEL,76,194,25,8
+    LTEXT           "软件版本：",IDC_SWVLABEL,76,158,41,8
+    LTEXT           "暂无信息",IDC_DEVMAC,114,210,110,8
+    LTEXT           "暂无信息",IDC_DEVIMEI,114,194,110,8
+    LTEXT           "暂无信息",IDC_DEVSWV,114,158,138,8
+    LTEXT           "硬件版本：",IDC_HWVLABEL,76,176,41,8
+    LTEXT           "暂无信息",IDC_DEVHWV,114,176,138,8
+    LTEXT           "MEID：",IDC_MEIDLABEL,257,194,25,8
+    LTEXT           "暂无信息",IDC_DEVMEID,300,194,80,8
+    CONTROL         "格式化用户盘",IDC_CFORMAT,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,3,266,60,10
+    CONTROL         "3G Modem适配",IDC_C3GMODEM,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,3,248,60,10
+    CONTROL         "PIN码检查",IDC_CPIN,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,3,214,60,10
+    CONTROL         "WAN口测试",IDC_CWAN,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,3,196,60,10
+    CONTROL         "软件复位",IDC_CRST,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,3,231,60,10
+    LTEXT           "其他操作：",IDC_STATIC,5,46,41,8
+    LTEXT           "PIN：",IDC_PINLABEL,257,210,21,8
+    LTEXT           "暂无信息",IDC_DEVPIN,300,210,81,8
+    CONTROL         "信息检查",IDC_CVER,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,3,75,60,10
+    LTEXT           "工作模式：",IDC_WORKMODELABEL,255,158,41,8
+    LTEXT           "modem识别：",IDC_3GMODEMLABEL,256,176,45,8
+    LTEXT           "暂无信息",IDC_DEVWORKMODE,299,158,83,8
+    LTEXT           "暂无信息",IDC_DEV3GMODEM,299,176,82,8
+    PUSHBUTTON      "开启本端\n设备WiFi",IDC_BOPENWIFI,11,291,50,95,BS_MULTILINE | NOT WS_VISIBLE
+    CTEXT           "",IDC_DUTMAC,395,140,314,42,SS_CENTERIMAGE,WS_EX_CLIENTEDGE
+    GROUPBOX        "MAC显示",IDC_STATIC,393,123,317,70
+    CONTROL         140,IDC_PASS_PIC,"Static",SS_BITMAP | NOT WS_VISIBLE,412,231,287,192
+    GROUPBOX        "测试结果",IDC_STATIC,393,222,317,207
+    CONTROL         141,IDC_FAIL_PIC,"Static",SS_BITMAP,412,231,287,192
+    LTEXT           "暂无信息",IDC_DEVBAND,131,248,53,8,WS_DISABLED
+    PUSHBUTTON      "切换频段",IDC_CHANGE_BAND,210,241,53,18,WS_DISABLED
+    LTEXT           "下列 Wi-Fi 频段信息和操作目前仅对 LTE MiFi 系列可用：",IDC_BAND_DESC_LABEL,75,231,256,8
+    PUSHBUTTON      "恢复出厂设置",IDC_LTE_RESET,321,241,52,17,WS_DISABLED
+    LTEXT           "当前频段:",IDC_BANDLABEL,76,247,37,8,WS_DISABLED
+    CTEXT           "正连接MIC...",IDC_MIC,6,139,49,137,SS_CENTERIMAGE | SS_WORDELLIPSIS | NOT WS_VISIBLE,WS_EX_CLIENTEDGE
+    LTEXT           "5g吞吐量",IDC_STATIC,298,120,37,10
+    EDITTEXT        IDC_PASSAVG_5g,329,118,37,13,ES_CENTER | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_AUTO_CONNECT,7,405,61,12,ES_CENTER | ES_MULTILINE | ES_WANTRETURN | WS_DISABLED
+    LTEXT           "MAC地址：",IDC_MAC_SCAN,9,391,37,8
+    PUSHBUTTON      "播放音频",IDC_AUDIO_LISTEN,266,241,53,18,WS_DISABLED
+    CONTROL         "WiFi性能测试",IDC_IS_THROUGH_TEST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,98,60,10
+    CONTROL         "音频测试",IDC_IS_AUDIO_TEST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,120,60,10
+    LTEXT           "工位",IDC_STATIC,153,19,22,9
+    EDITTEXT        IDC_STATION,175,17,47,12,ES_CENTER | ES_AUTOHSCROLL
+END
+
+IDD_SNScan DIALOGEX 0, 0, 237, 42
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "请认真核对MAC"
+FONT 9, "System", 0, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_MACBOX,7,7,223,27,0,WS_EX_CLIENTEDGE
+END
+
+IDD_PASS DIALOGEX 0, 0, 290, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "测试通过确认"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,108,155,70,21
+    CONTROL         140,IDC_STATIC,"Static",SS_BITMAP,7,6,276,149
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,1,5,5
+ PRODUCTVERSION 3,1,5,5
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "TP-LINK移动互联网产品线 通讯终端制造部"
+            VALUE "FileDescription", "无线吞吐量测试"
+            VALUE "FileVersion", "3.1.5.5"
+            VALUE "InternalName", "wifi_throughput"
+            VALUE "LegalCopyright", "版权所有 (C) 2013, 2014 TP-LINK TECHNOLOGIES CO., LTD"
+            VALUE "OriginalFilename", "wifi_throughput.exe"
+            VALUE "ProductName", "无线吞吐量测试"
+            VALUE "ProductVersion", "3.1.5.5"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_MY_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 710
+        VERTGUIDE, 92
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 432
+    END
+
+    IDD_SNScan, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    IDD_PASS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 283
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 176
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\1.bmp"
+IDB_BITMAP2             BITMAP                  "res\\logo2.bmp"
+IDB_BITMAP3             BITMAP                  "res\\mobile_logo.bmp"
+IDB_BITMAP4             BITMAP                  "res\\pass.bmp"
+IDB_BITMAP5             BITMAP                  "res\\fail.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 无线测试(&A)..."
+END
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\WirelessTest.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

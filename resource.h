@@ -1,0 +1,121 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by WirelessTest.rc
+//
+#define IDM_ABOUTBOX                    0x0010
+#define IDD_ABOUTBOX                    100
+#define IDS_ABOUTBOX                    101
+#define IDD_MY_DIALOG                   102
+#define IDR_MAINFRAME                   128
+#define IDD_SNScan                      129
+#define IDB_BITMAP1                     133
+#define IDB_BITMAP2                     136
+#define IDI_ICON1                       137
+#define IDB_BITMAP3                     138
+#define IDD_PASS                        139
+#define IDB_BITMAP4                     140
+#define IDB_BITMAP5                     141
+#define IDC_TESTTHROUGHPUT              1000
+#define IDC_BROSE                       1001
+#define IDC_DUTIP                       1002
+#define IDC_REMOTEIP                    1003
+#define IDC_TESTFILENAME                1004
+#define IDC_PASSAVG                     1005
+#define IDC_PASSAVG2                    1006
+#define IDC_PASSAVG_5g                  1006
+#define IDC_RESULT                      1007
+#define IDC_AVG                         1008
+#define IDC_CURSTATE                    1009
+#define IDC_READRECORD                  1010
+#define IDC_PING                        1011
+#define IDC_CURMAC                      1012
+#define IDC_DUTMAC                      1012
+#define IDC_REMAC                       1013
+#define IDC_RESULT2                     1014
+#define IDC_MIC                         1014
+#define IDC_RESEARCH                    1015
+#define IDC_REMESSAGE                   1019
+#define IDC_NUMBER                      1020
+#define IDC_XIANBIE                     1021
+#define IDC_CONFIRM                     1022
+#define IDC_AMEND                       1023
+#define IDC_NUMBER2                     1024
+#define IDC_AUTO_CONNECT                1024
+#define IDC_NUMBER3                     1025
+#define IDC_STATION                     1025
+#define IDC_COMBOBOXEX1                 1030
+#define IDC_PASSTIMES                   1031
+#define IDC_FAILTIMES                   1032
+#define IDC_PASSPRO                     1033
+#define IDC_RESET                       1035
+#define IDC_MACBOX                      1039
+#define IDC_LIST1                       1040
+#define IDC_SPIN                        1041
+#define IDC_SRST                        1042
+#define IDC_SWIFI                       1044
+#define IDC_PINPIC                      1045
+#define IDC_RSTPIC                      1046
+#define IDC_WANPIC                      1047
+#define IDC_SWANTEST                    1048
+#define IDC_INFO                        1049
+#define IDC_FEEDBK                      1050
+#define IDC_TYPESYN                     1052
+#define IDC_MACLABEL                    1053
+#define IDC_DEVMAC                      1054
+#define IDC_IMEILABEL                   1055
+#define IDC_DEVIMEI                     1056
+#define IDC_SWVLABEL                    1057
+#define IDC_HWVLABEL                    1058
+#define IDC_DEVSWV                      1059
+#define IDC_DEVHWV                      1060
+#define IDC_MEIDLABEL                   1061
+#define IDC_DEVMEID                     1062
+#define IDC_CWIFI                       1063
+#define IDC_IMEILABEL2                  1063
+#define IDC_CFORMAT                     1064
+#define IDC_C3GMODEM                    1065
+#define IDC_CPIN                        1066
+#define IDC_CWAN                        1067
+#define IDC_CRST                        1068
+#define IDC_PINLABEL                    1069
+#define IDC_DEVPIN                      1070
+#define IDC_CVER                        1071
+#define IDC_S3GMODEMLABEL               1072
+#define IDC_3GMODEMLABEL                1072
+#define IDC_WORKMODELABEL               1073
+#define IDC_DEVWORKMODE                 1074
+#define IDC_DEV3GMODEM                  1075
+#define IDC_BOPENWIFI                   1076
+#define IDC_PASS                        1077
+#define IDC_PASS_PIC                    1077
+#define IDC_FAIL_PIC                    1078
+#define IDC_BANDLABEL                   1079
+#define IDC_DEVBAND                     1080
+#define IDC_CHANGE_BAND                 1081
+#define IDC_BAND_DESC_LABEL             1082
+#define IDC_LTE_RESET                   1083
+#define IDC_PRO_INFO                    1084
+#define IDC_MAN_INFO                    1084
+#define IDC_3GMODEMLABEL2               1084
+#define IDC_MAC_SCAN                    1084
+#define IDC_COPY_INFO                   1085
+#define IDC_AUDIO_LISTEN                1085
+#define IDC_SETBAND_CMCC                1086
+#define IDC_IS_THROUGH_TEST             1086
+#define IDC_CURRENTCHANNEL_CMCC         1087
+#define IDC_CWAN3                       1087
+#define IDC_IS_AUDIO_TEST               1087
+#define IDC_EDIT_CURRENTCHANNEL_CMCC    1088
+#define IDC_BUTTON2                     1090
+#define IDC_BUTTON_CHANNEL              1090
+
+// Next default values for new objects
+//
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        142
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         1091
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

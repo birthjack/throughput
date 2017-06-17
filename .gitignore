@@ -1,0 +1,11 @@
+*.user
+*.obj
+Debug/
+Release/
+*.sdf
+*.suo
+*.aps
+*.log
+*.err
+ipch/
+dist-audio/
